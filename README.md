@@ -37,8 +37,6 @@ Learning-HTML/
 ```
 Why This Repository Exists
 
-Most beginner repositories only contain copied tutorial code.
-
 This one focuses more on:
 
 experimenting
