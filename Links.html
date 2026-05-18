@@ -6,34 +6,70 @@
     <link rel="icon" href="html5.png">
 </head>
 <body>
-     <h2>Hi!</h2>
-    <p>
-     This is my third program and today we will learn about &lt;a&gt; element (links)
-    </p>
-    
-    <h3>Links</h3>
-    
-    <p>Links are clickable references that take you from one place to another online. Click one and your browser jumps to a new webpage, file, email draft, or section of the same page. They’re the reason the internet is a “web” instead of just isolated documents.   
-    <h4>Syntax of Links in HTML</h4>
-    <p>
-        The syntax for links is:
-        &lt;a href="URL">name &lt;/a&gt;
-    </p>
-    <h4>href</h4>
-    <p>It stands for Hypertext Reference.Its an attribute that tells the link where to go</p>
-    <p>To know more about links in html click this link:</p>
-     <a href ="https://www.w3schools.com/tags/tag_a.asp" target ="_blank"> W3schools &lt;a&gt; tags</a>
-     </p>
-     <p>
-         Here are some common website's links:
-     </p>
-     <a href="https://www.google.com/url?sa=i&source=web&rct=j&url=https://open.spotify.com/&ved=2ahUKEwisk_CehrmUAxVoh1YBHWESGRkQy_kOegoIAggACAAIAxAE&opi=89978449&cd&psig=AOvVaw1LphBuzXTnnZvrTdrUZwiZ&ust=1778857371278000">Spotify.com</a>
-     <p></p>
-     <a href="https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.wikipedia.org/&ved=2ahUKEwj8itO8hrmUAxXRh1YBHf9VDRoQy_kOegoIAggACAAIARAE&opi=89978449&cd&psig=AOvVaw0Pf41Pan9hSilDy5M50cOz&ust=1778857433646000">Wikipedia.com</a>
-     <p></p>
-     <a href="https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.youtube.com/&ved=2ahUKEwibjqTNhrmUAxUas1YBHYbnDiIQy_kOegoIAggACAAIARAE&opi=89978449&cd&psig=AOvVaw2_OehEhVXjf_fK2lr7wrX1&ust=1778857468556000">YouTube.com</a>
-     <p></p>
-     <a href="https://www.google.com/url?sa=i&source=web&rct=j&url=https://chatgpt.com/&ved=2ahUKEwjLw_b-h7mUAxXpxzgGHTYTN-MQy_kOegoIAggACAAIARAE&opi=89978449&cd&psig=AOvVaw2DY3LO-cLDEo3YG7ZH3rgP&ust=1778857841124000">ChatGPT.com</a>
-     
+    <header>
+        <h2>Hi!</h2>
+        <p>This is my third program and today we will learn about the &lt;a&gt; element (links)</p>
+        
+        <nav>
+            <h3>Jump to:</h3>
+            <ul>
+                <li><a href="#what-are-links">What Are Links?</a></li>
+                <li><a href="#syntax">Syntax</a></li>
+                <li><a href="#types">Types of Links</a></li>
+                <li><a href="about.html">About Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="what-are-links">
+            <h3>Links</h3>
+            <p>Links are clickable references that take you from one place to another online. Click one and your browser jumps to a new webpage, file, email draft, or section of the same page. They’re the reason the internet is a “web” instead of just isolated documents.</p>
+        </section>
+
+        <section id="syntax">
+            <h4>Syntax of Links in HTML</h4>
+            <p>The syntax for links is: <code>&lt;a href="URL"&gt;link text&lt;/a&gt;</code></p>
+            
+            <h4>href</h4>
+            <p>It stands for Hypertext Reference. It's an attribute that tells the link where to go.</p>
+        </section>
+
+        <section id="types">
+            <h4>Types of Links in HTML</h4>
+            <ul>
+                <li>
+                    <strong>External link:</strong>
+                    <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank" rel="noopener">W3schools &lt;a&gt; tags</a>
+                </li>
+                <li>
+                    <strong>Internal link:</strong>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <strong>Anchor link:</strong>
+                    <a href="#what-are-links">Back to Top</a>
+                </li>
+                <li>
+                    <strong>Download link:</strong>
+                    <a href="notes.pdf" download>Download Notes</a>
+                </li>
+            </ul>
+
+            <h4>Common Website Examples:</h4>
+            <ul>
+                <li><a href="https://open.spotify.com" target="_blank">Spotify.com</a></li>
+                <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia.com</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube.com</a></li>
+                <li><a href="https://chat.openai.com" target="_blank">ChatGPT.com</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&lt;&lt;&lt; &copy; <abbr title="Adrish Datta">AD</abbr> &gt;&gt;&gt;</p>
+        <a href="#">Back to top</a>
+    </footer>
 </body>
-</html
+</html>
